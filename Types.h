@@ -1,20 +1,24 @@
 #pragma once
 
 #include <omp.h>
+#include <cstdalign>
+#include <cstdarg>
+#include <cstdbool>
+#include <cstdint>
 
 #define Epsilon 0.0000001
 #define UseThreads omp_set_num_threads
 #define MaxThreads omp_get_max_num_threads
 typedef void Void;
 typedef bool Bit;
-typedef unsigned char UByte;
-typedef signed char Byte;
-typedef unsigned short UShort;
-typedef signed short Short;
-typedef unsigned int UInt;
-typedef signed int Int;
-typedef unsigned long int UBig;
-typedef signed long int Big;
+typedef std::uint_fast8_t UByte;
+typedef std::int_fast8_t Byte;
+typedef std::uint_fast16_t UShort;
+typedef std::int_fast16_t Short;
+typedef std::uint_fast32_t UInt;
+typedef std::int_fast32_t Int;
+typedef std::uint_fast64_t UBig;
+typedef std::int_fast64_t Big;
 typedef float Float;
 typedef double Double;
 typedef long double Quad;
