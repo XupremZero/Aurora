@@ -29,3 +29,11 @@ C Cast(const T a)
 {
 	return static_cast<C>(a);
 }
+
+template<class T>
+Void Swap(T& a, T& b)
+{
+	T c = a;
+	a = b;
+	b = c;
+}
