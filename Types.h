@@ -9,7 +9,7 @@
 #define UseThreads omp_set_num_threads
 #define MaxThreads omp_get_max_num_threads()
 typedef void Void;
-typedef _Bool Bit;
+#define Bit _Bool;
 typedef std::uint_fast8_t UByte;
 typedef std::int_fast8_t Byte;
 typedef std::uint_fast16_t UShort;
