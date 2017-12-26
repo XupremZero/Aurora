@@ -1,3 +1,4 @@
+//Copyright 2018 Samuel Alonso, All Rigths Reserved
 #pragma once
 
 #include <Aurora\Types.h>
