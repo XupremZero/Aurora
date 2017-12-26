@@ -1,7 +1,6 @@
 #pragma once
 
 #include <Aurora\Types.h>
-#include <Aurora\Core\Signal.h>
 
 namespace Aurora
 {
