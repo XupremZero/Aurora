@@ -4,7 +4,6 @@
 #include <cstdarg>
 #include <cstdint>
 
-#define Epsilon 0.0000001
 typedef void Void;
 typedef bool Bit;
 #define Yes 1
@@ -21,6 +20,8 @@ typedef std::uint_fast64_t U64;
 typedef std::int_fast64_t S64;
 typedef float F32;
 typedef double F64;
+
+constexpr F32 Epsilon = 0.0000001;
 
 template<class T, class C>
 C Cast(const T a)
