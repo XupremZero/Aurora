@@ -8,6 +8,7 @@ namespace Aurora
 	{
 		namespace Keyboard
 		{
+			//Return pressed key in form of signed char
 			S8 GetKey();
 		}
 	}
