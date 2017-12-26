@@ -7,7 +7,7 @@
 
 #define Epsilon 0.0000001
 #define UseThreads omp_set_num_threads
-#define MaxThreads omp_get_max_num_threads
+#define MaxThreads omp_get_max_num_threads()
 typedef void Void;
 typedef _Bool Bit;
 typedef std::uint_fast8_t UByte;
