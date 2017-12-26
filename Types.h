@@ -6,7 +6,7 @@
 
 #define Epsilon 0.0000001
 typedef void Void;
-#define Bit _Bool
+typedef bool Bit;
 #define Yes 1
 #define True 1
 #define No 0
