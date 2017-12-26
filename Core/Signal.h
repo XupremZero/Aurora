@@ -12,6 +12,7 @@ namespace Aurora
 		private:
 			Bit IsCompleted = false;
 		public:
+			//Check if a thread or function was completed
 			Bit Check();
 		};
 	}
