@@ -3,14 +3,13 @@
 #include <omp.h>
 #include <cstdalign>
 #include <cstdarg>
-#include <cstdbool>
 #include <cstdint>
 
 #define Epsilon 0.0000001
 #define UseThreads omp_set_num_threads
 #define MaxThreads omp_get_max_num_threads
 typedef void Void;
-typedef bool Bit;
+typedef _Bool Bit;
 typedef std::uint_fast8_t UByte;
 typedef std::int_fast8_t Byte;
 typedef std::uint_fast16_t UShort;
