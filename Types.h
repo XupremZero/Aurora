@@ -1,7 +1,6 @@
 #pragma once
 
 #include <omp.h>
-#include <cstdalign>
 #include <cstdarg>
 #include <cstdint>
 
