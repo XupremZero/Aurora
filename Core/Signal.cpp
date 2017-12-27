@@ -3,6 +3,5 @@
 
 Bit Aurora::Core::Signal::Check()
 {
-	IsCompleted = true;
-	return IsCompleted;
+	return true;
 }
