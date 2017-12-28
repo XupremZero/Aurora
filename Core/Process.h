@@ -13,7 +13,7 @@ namespace Aurora
 			//This process ID
 			U16 ID;
 		public:
-			//Init this process and create, set the PID to 'ID', and create a Window(without borders, fullscreen) with the renderer context
+			//Init this process and create, set the PID to 'ID', and create a Window(without borders, fullscreen) with the renderer context(OGL, D3D, VK, OGLES)
 			Process();
 
 			//Init an external process by name and set it PID to 'ID'
