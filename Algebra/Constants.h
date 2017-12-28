@@ -6,4 +6,3 @@
 constexpr F32 Pi = 3.1415927;
 
 constexpr F32 E = 2.7182818;
-
