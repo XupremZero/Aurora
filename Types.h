@@ -5,6 +5,7 @@
 #include <cstdarg>
 #include <cstdint>
 
+#define il inline
 typedef void Void;
 typedef bool Bit;
 #define Yes 1
